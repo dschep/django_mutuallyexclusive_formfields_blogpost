@@ -1,7 +1,7 @@
 Django==1.5
 argparse==1.2.1
 dj-static==0.0.6
--e git+git@github.com:dschep/django-mutuallyexclusive-formfields.git@c9b48a985cdaaed234d1d8351b85dc033dde3939#egg=django_mutually_exclusive_form_fields-master
+-e git+https://github.com/dschep/django-mutuallyexclusive-formfields.git@c9b48a985cdaaed234d1d8351b85dc033dde3939#egg=django_mutually_exclusive_form_fields-master
 gunicorn==19.0.0
 requests==2.4.3
 static3==0.5.1
