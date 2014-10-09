@@ -1,7 +1,7 @@
 Django==1.5
 argparse==1.2.1
 dj-static==0.0.6
--e git+https://github.com/dschep/django-xor-formfields.git@1a0feb9dedfe7810a93f6e0be57b02448a6b5b5f#egg=django_mutually_exclusive_form_fields-master
+-e git+https://github.com/dschep/django-xor-formfields.git@9c1a3f0ac4d25ec7cc9752fb7dc0030864082c30#egg=django_mutually_exclusive_form_fields-master
 gunicorn==19.0.0
 requests==2.4.3
 static3==0.5.1
