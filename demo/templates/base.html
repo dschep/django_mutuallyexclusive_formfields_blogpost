@@ -1,17 +1,12 @@
 <html>
     <head>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        {{ form.media }}
         <link rel="stylesheet" href="/static/style.css">
         <!-- Typekit Fonts -->
         <script type="text/javascript" src="//use.typekit.net/kte3zfq.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        {% block js %}{% endblock %}
     </head>
     <body>
-        <form action="" method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <input type="submit" />
-        </form>
+        {% block body %}{% endblock %}
     </body>
 </html>

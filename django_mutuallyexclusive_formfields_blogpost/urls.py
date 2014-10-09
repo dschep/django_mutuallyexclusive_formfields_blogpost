@@ -1,9 +1,6 @@
 from django.conf.urls import patterns, include, url
 
-from v1_rawdjango.views import TestView as V1TestView
-from v2_djangoandjs.views import TestView as V2TestView
-from v3_mutuallyexclusive_formfields.views import TestView as V3TestView
-from v4_fileorurl.views import TestView as V4TestView
+from demo.views import V1TestView, V2TestView, V3TestView, V4TestView
 
 urlpatterns = patterns('',
     url(r'v1', V1TestView.as_view()),

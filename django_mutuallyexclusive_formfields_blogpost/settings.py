@@ -127,9 +127,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 
     'django_mutuallyexclusive_formfields_blogpost',
-    'mutuallyexclusive_formfields',
-    'v2_djangoandjs',
-    'v3_mutuallyexclusive_formfields',
+    'demo',
 )
 
 # A sample logging configuration. The only tangible logging
