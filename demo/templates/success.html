@@ -2,9 +2,9 @@
 
 {% block body %}
     <h1>Form successfully Validated!</h1>
-    <p>
-        form.cleaned_data = {{ form.cleaned_data }}
-    </p>
+    <pre>
+form.cleaned_data = {{ form.cleaned_data|pprint }}
+    </pre>
     <p>
         <a href="">&lt; Back</a>
     </p>
