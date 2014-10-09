@@ -52,4 +52,9 @@ class V3TestForm(forms.Form):
 
 
 class V4TestForm(forms.Form):
-    test_field = FileOrURLField(to='file')
+    test_field1 = FileOrURLField(
+            to=None, help_text='This normalized to what the user submitted.')
+    test_field2 = FileOrURLField(
+            to='file', help_text='This normalized to a file.')
+    test_field3 = FileOrURLField(
+            upload_to='TEST', to='url', help_text='This normalized to an url.')
