@@ -4,7 +4,6 @@ from .forms import V1TestForm, V2TestForm, V3TestForm, V4TestForm
 
 class TestView(FormView):
     template_name = 'test_form.html'
-    success_url = '/static/success.html'
 
     def form_valid(self, form):
         return render_to_response('success.html', {'form': form})
