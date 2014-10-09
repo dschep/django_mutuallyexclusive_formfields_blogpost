@@ -6,6 +6,15 @@ body {
     color: #505050;
     font-size: .75em;
 }
+.errorlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: red;
+}
 form label {
     vertical-align: top
+}
+form p {
+    margin-top: 0;
 }
