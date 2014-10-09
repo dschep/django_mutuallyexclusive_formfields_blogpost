@@ -1,6 +1,6 @@
 from django import forms
 from django.core.validators import EMPTY_VALUES
-from mutuallyexclusive_formfields.forms import (
+from xorformfields.forms import (
         MutuallyExclusiveValueField, MutuallyExclusiveRadioWidget,
         FileOrURLField)
 
